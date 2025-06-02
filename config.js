@@ -15,6 +15,10 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY 𝓥𝓲𝓬𝓽𝓸𝓻 🤍*",
 // set the auto reply massage on status reply  
+ANTI_DELETE: process.env.ANTI_DELETE || "true",
+// set true false for anti delete     
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
+// change it to 'same' if you want to resend deleted message in same chat     
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -57,8 +61,6 @@ MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
-// make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -75,8 +77,6 @@ DEV: process.env.DEV || "923427582273",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
-// change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
 };
